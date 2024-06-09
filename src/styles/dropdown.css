@@ -1,0 +1,158 @@
+.button-menu-container {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-button {
+  padding: 10px 20px 10px 13px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: #131313;
+  border: none;
+  color: white;
+  border-radius: 8px;
+}
+
+.button-icon {
+  margin-right: 10px;
+  margin-bottom: 1px;
+  width: 16px;
+  height: 16px;
+  rotate: 270deg;
+}
+
+.menu-button.active {
+  background-color: #393939;
+  border: 1px solid grey;
+}
+
+.menu-button.category {
+  font-weight: 700;
+}
+
+.menu-button.category svg {
+  opacity: 1;
+}
+
+.menu-button:hover {
+  background-color: #393939;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #131313;
+  color: white;
+  width: 300px;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 10px 0;
+}
+
+.search-icon {
+  position: absolute;
+  left: 15px;
+  top: 16px;
+  z-index: 999;
+  width: 15px;
+  height: 15px;
+  rotate: 270deg;
+}
+
+.menu-options {
+  margin-top: 40px;
+  padding: 3px 25px 3px 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #131313;
+}
+
+.favorite-icon {
+  width: 18px;
+  height: 18px;
+  padding-right: 10px;
+  padding-bottom: 2px;
+  opacity: 0.7;
+}
+
+.search-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 249px;
+  font-size: 16px;
+  padding: 15px 10px 15px 40px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  border-radius: 10px 10px 0 0;
+  background-color: #131313;
+  color: white;
+}
+
+.menu-section {
+  padding: 10px;
+  background-color: #131313;
+}
+
+.menu-title {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.menu-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-section ul li {
+  padding: 10px 0 10px 3px;
+  cursor: pointer;
+}
+
+.menu-section ul li:hover {
+  background-color: #575757;
+  border-radius: 8px;
+}
+
+.coins-star-icon {
+  margin-bottom: -2px;
+  margin-right: 12px;
+  width: 18px;
+  height: 18px;
+}
+
+.menu::-webkit-scrollbar {
+  width: 7px;
+  height: 4px;
+}
+
+.menu::-webkit-scrollbar-track {
+  background: #131313;
+}
+
+.menu::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 8px;
+}
+
+.menu::-webkit-scrollbar-thumb:hover {
+  background-color: #333;
+}
